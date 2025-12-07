@@ -1,0 +1,8 @@
+tarfs:
+total 0
+drwxr-xr-x 0 tony tony 0 Nov 18  2024 softlink
+lrwxrwxrwx 0 tony tony 0 Nov 18  2024 softlink_b.txt -> ./softlink/b.txt
+
+tarfs/softlink:
+total 0
+-rw-r--r-- 0 tony tony 23 Nov 18  2024 b.txt
