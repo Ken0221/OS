@@ -291,7 +291,7 @@ int my_read(const char *path, char *buffer, size_t size, off_t offset,
     return res;
 }
 
-int my_readlink(const char *path, void *buffer, size_t size) {
+int my_readlink(const char *path, char *buffer, size_t size) {
     struct TarNode *node = get_node(path);
     if (!node) return -ENOENT;
     
